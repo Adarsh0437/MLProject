@@ -50,6 +50,7 @@ flight_type_options = ["Select a flight type"] + list(flight_type_display.keys()
 st.set_page_config(page_title="Travel Expense Predictor", layout="centered")
 st.title("🧳 Total Travel Expense Predictor")
 st.markdown("Predict your estimated total **travel expense** based on your trip details.")
+
 # Background image setup
 def set_bg(image_file):
     with open(image_file, "rb") as img_file:
